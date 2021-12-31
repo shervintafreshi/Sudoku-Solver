@@ -235,7 +235,9 @@ def check_grid_correctness(grid: List[List[List[int]]]) -> bool:
     return solved
 
 """ 
-Some sort of in-program memory system that keeps track of 
+Improvements:
+
+1. Some sort of in-program memory system that keeps track of 
 earlier attempts
 """
 
