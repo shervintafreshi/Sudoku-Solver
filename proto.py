@@ -124,7 +124,6 @@ def determine_usable_digits(occupied_digits: Set[int]) -> List[int]:
 def determine_occupied_digits_sub_grid(sub_grid: List[List[int]]) -> List[int]:
     print("*Determining occupied digits in sub-grid...")
     occupied_digits = []
-    print(f"Showing sub-grid: {sub_grid}")
 
     for number_row in sub_grid:
         for number in number_row:
@@ -258,7 +257,7 @@ if __name__ == "__main__":
 
         # Number of Epochs to run the solving algorithm
         i += 1
-        # Reset current working grid After 50 attempts
+        # Reset current working grid After 15 attempts
         if i % 15 == 0:
             print("*Resetting current workable grid...")
             workable_grid = [[],[],[],[],[],[],[],[],[]]
