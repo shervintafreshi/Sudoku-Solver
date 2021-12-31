@@ -4,6 +4,6 @@
 
 ## Future Patches:
 
-* Utilize the mutliprocessing library 
-* Use openCL to utilize GPU possibly for calculations
+* Utilize the multi-processing library 
+* Use openCL for parallel determination of solutions
 * Implement more efficient algorithms to solve sub-grids 
