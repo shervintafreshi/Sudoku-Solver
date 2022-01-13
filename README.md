@@ -1,4 +1,4 @@
-# Sudoku-Solving Application Python
+# Sudoku-Solving Application
 
 * A program that will take matrices of numbers and will solve for the subsequent sudoku solution. 
 
